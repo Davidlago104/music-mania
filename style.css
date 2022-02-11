@@ -7,3 +7,12 @@
 body {
     height: 100vh;
 }
+
+header {
+    background-color: royalblue;
+    background-image: url(../images/sea.png);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
