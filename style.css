@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Righteous&family=Shizuru&display=swap');
 
 * {
     padding: 0;
@@ -11,10 +12,33 @@
 .nav ul {
     margin: 0;
     padding: 0;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-bottom: 1px solid #919494;
 }
 
 .nav li {
-    display: inline-flex;
+    display: inline;
+    padding: 0 5%;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .75em;
+    color: #f8f8ff;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #ffdbdb;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: 'Cinzel', serif;
 }
 
 body {
