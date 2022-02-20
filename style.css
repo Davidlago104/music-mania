@@ -41,6 +41,16 @@
     font-family: 'Cinzel', serif;
 }
 
+.title-bottom {
+    color: rgb(198, 198, 198);
+    padding: .25em;
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    text-emphasis: none;
+    text-decoration: none;
+}
+
 .about-section {
     margin: 1.5em;
 }
@@ -78,4 +88,12 @@ header {
     width: 300px;
     margin: 20px;
     border-radius: 50%;
+}
+
+.foot {
+    background-color: rgb(48, 132, 231);
+}
+
+.foot-container {
+    display:flex;
 }
