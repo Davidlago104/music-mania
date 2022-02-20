@@ -71,3 +71,11 @@ header {
     text-align: center;
     font-size: 3em;
 }
+
+.image {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 50%;
+}
