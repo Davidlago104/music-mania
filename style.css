@@ -108,3 +108,27 @@ header {
 .albums:last-child{
     border-bottom: none;
 }
+
+.album-obj {
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: .5em;
+}
+
+.album-date {
+    color: black;
+    font-weight: bold;
+    width: 11%;
+}
+
+.album-artist {
+    width: 24%
+}
+
+.album-name {
+    width: 42%;
+}
+
+.album-button {
+    width: 17%;
+}
