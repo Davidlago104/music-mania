@@ -132,3 +132,15 @@ header {
 .album-button {
     width: 17%;
 }
+
+.primary {
+    color: #f8f8ff;
+    background-color: #191970;
+    border: none;
+    border-radius: .4em;
+    font-size: bold;
+}
+
+.primary:hover {
+    background-color: #707019;
+}
