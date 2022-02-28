@@ -153,6 +153,16 @@ header {
 }
 
 .shop-artist{
+        display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
+    margin: 5px;
+}
+
+.shop-album {
     display: block;
     width: 100%;
     text-align: center;
@@ -164,4 +174,21 @@ header {
 
 .shop-img {
     height: 250px;
+}
+
+.shop-obj-detail {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
